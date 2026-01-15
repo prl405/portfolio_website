@@ -1,0 +1,31 @@
+.sidebar-footer {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  color: var(--text-secondary);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: var(--accent);
+  background: rgba(10, 132, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  .sidebar-footer {
+    display: none;
+  }
+}
