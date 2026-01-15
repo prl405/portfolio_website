@@ -1,0 +1,35 @@
+# Node
+node_modules/
+/.pnp/
+.pnp.js
+
+# Build
+dist/
+build/
+/.vite/
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Env
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# IDEs
+.idea/
+.vscode/
+
+# Test
+.vitest/
+
+# Misc
+*.local
